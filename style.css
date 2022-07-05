@@ -52,6 +52,12 @@ h2 {
 h3 {
   font-size: 25px;
 }
+h4 {
+  font-size: 20px;
+  font-weight: 900;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-variant: small-caps;
+}
 span {
   color: tomato;
 }
@@ -99,4 +105,71 @@ span {
   text-align: center;
   padding-left: 30%;
   padding-right: 30%;
+}
+.section4 {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  padding: 5%;
+}
+.iteam1 {
+  width: 40%;
+  margin: 10px;
+  padding: 5px 5px 5px 50px;
+  box-shadow: 10px 10px 10px 10px gray;
+  border-radius: 40px;
+}
+.iteam2 {
+  width: 40%;
+  margin: 10px;
+  padding: 5px 5px 5px 50px;
+  box-shadow: 10px 10px 10px 10px gray;
+  border-radius: 40px;
+}
+#img1 {
+  height: 300px;
+  width: 400px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+#img2 {
+  height: 300px;
+  width: 400px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.section5 {
+  display: flex;
+  width: 80%;
+  padding: 10px 0px 0px 50px;
+  box-shadow: 5px 5px 5px 5px gray;
+  border-radius: 10px;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.youtube {
+  width: 34%;
+  text-align: center;
+}
+.insta {
+  width: 33%;
+  text-align: center;
+}
+.dribble {
+  width: 33%;
+  text-align: center;
+}
+footer {
+  background-color: rgb(21, 17, 17);
+  color: rgb(132, 144, 155);
+  height: 160px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#footer {
+  color: cornsilk;
+  font-size: 15px;
 }
