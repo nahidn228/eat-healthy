@@ -138,26 +138,47 @@ span {
   padding-left: 15px;
   padding-top: 10px;
 }
+
 .section5 {
   display: flex;
+  padding-left: 40px;
   width: 80%;
   padding: 10px 0px 0px 50px;
-  box-shadow: 5px 5px 5px 5px gray;
+
   border-radius: 10px;
   align-items: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+.box-shadow {
+  width: 80%;
+  display: flex;
+  padding-left: 0px;
+  box-shadow: 5px 5px 5px 5px gray;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.blank {
+  width: 10%;
+}
+.blank1 {
+  width: 10%;
+}
+.fb {
+  width: 20%;
+  text-align: center;
+}
 .youtube {
-  width: 34%;
+  width: 20%;
   text-align: center;
 }
 .insta {
-  width: 33%;
+  width: 20%;
   text-align: center;
 }
 .dribble {
-  width: 33%;
+  width: 20%;
   text-align: center;
 }
 footer {
